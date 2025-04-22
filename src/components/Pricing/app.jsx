@@ -60,7 +60,7 @@ function Plans() {
                 <a 
                     onClick={() => setModalOpen(true)}>
                   <button className="display-x">
-                    Book Now <img src="./assets/button-icons/size=16-13.svg" alt="" />
+                    Book Now
                   </button>
                 </a>
               </div>
