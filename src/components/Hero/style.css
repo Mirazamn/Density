@@ -1,0 +1,159 @@
+.hero .flex {
+    justify-content: center;
+}
+
+
+.hero .hero-txt h1 {
+    /* Display XL */
+    width: 648px;
+    color: var(--Mine-Shaft);
+}
+
+
+.hero .hero-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+
+.hero .hero-txt .hero-p {
+    /* Body L */
+    width: 648px;
+    color: var(--Mine-Shaft);
+}
+
+
+.hero .hero-txt .buttons button {
+    padding: 18px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.hero .hero-txt .buttons .secondary {
+    background: transparent;
+    border: solid 1px var(--Observatory);
+    color: var(--Observatory);
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.hero-txt {
+    padding: 50px 0 0 0;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+    .hero {
+        padding: 40px 0;
+    }
+
+
+    .hero .hero-txt {
+        padding: 0;
+    }
+
+
+    .hero .flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .hero .secondary {
+        display: none;
+    }
+
+
+    .hero .display-xl {
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+
+    .hero .display-l {
+        font-size: 28px;
+        font-weight: 600;
+        width: 200px;
+    }
+
+
+    .hero .hero-txt h1 {
+        width: 400px;
+        text-align: center;
+    }
+
+
+    .hero .hero-txt {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .hero .body-l {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+    .hero .hero-txt .hero-p {
+        text-align: center;
+        width: 360px;
+    }
+
+
+    .hero .hero-txt p {
+        text-align: center;
+        width: 350px;
+    }
+
+
+    .hero #second-hero {
+        width: 300px;
+    }
+
+
+    .hero .container > img {
+        width: 320px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 780px) {
+    .hero .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .hero-txt h1 {
+        text-align: center;
+    }
+
+
+    .hero-txt p {
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        padding: 0 0 50px 0;
+    }
+}
